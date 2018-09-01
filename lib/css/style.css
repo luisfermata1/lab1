@@ -1,0 +1,69 @@
+
+/* Manejo del menu TOP */
+@media only screen and (max-width: 991px) {
+    
+}
+
+/* Media Querie for Mobile Devices */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Media Querie for Tablet Devices */
+@media only screen and (max-width: 991px) and (min-width: 600px) {
+
+}
+
+/* Media Querie for Desktop Devices */
+@media only screen and (min-width: 992px){
+
+}
+
+.indicators .active{
+    background-color: #1e88e5 !important;
+}
+
+.btn-floating{
+  background-color: #FAC408;
+}
+
+.divider{
+  height: 3px;
+  background-color: #FAC408;
+}
+
+.contenido-grande > p{
+  font-size: 1.5em;
+}
+
+#nav-mobile > li > a{
+  font-size: 1.2em;
+}
+
+.collection > li > div{
+  font-size: 1.2em;
+}
+
+.collection > li > div > i{
+  color: #FAC408;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
