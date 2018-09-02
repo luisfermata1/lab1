@@ -35,9 +35,9 @@
         </header>
         <main>
           <div class="parallax-container">
-            <div class="parallax"><img src="img/parallax2.jpg"></div>
+            <div class="parallax"><img class="parallax1" src="img/parallax2.jpg"></div>
           </div>
-          <div class="row">
+          <div class="row section">
             <div class="col l4 m6 s12">
                 <img class="responsive-img" src="img/img2.png">
             </div>
@@ -51,9 +51,9 @@
             </div>
           </div>
           <div class="parallax-container">
-            <div class="parallax"><img src="img/parallax3.jpg"></div>
+            <div class="parallax"><img class="parallax2" src="img/parallax3.jpg"></div>
           </div>
-          <div class="row">
+          <div class="row section">
             <div class="col s12 hide-on-med-and-up">
                 <img class="responsive-img" src="img/img1.png">
             </div>
@@ -70,13 +70,14 @@
             </div>
           </div>
           <div class="fixed-action-btn">
-            <a class="btn-floating btn-large green darken-2 cambio_tema">
+            <a class="btn-floating btn-large pulse green darken-2 cambio_tema">
               <i class="large material-icons">settings</i>
             </a>
             <ul>
-              <li><a class="btn-floating red" onclick="cambiar_color_letras()"><i class="material-icons">color_lens</i></a></li>
+                <li><a class="btn-floating red" onclick="add_shadow()"><i class="material-icons">collections</i></a></li>
+              <li><a class="btn-floating orange" onclick="cambiar_color_letras()"><i class="material-icons">color_lens</i></a></li>
               <li><a class="btn-floating yellow darken-1" onclick="cambiar_font_size()"><i class="material-icons">sort_by_alpha</i></a></li>
-              <li><a class="btn-floating green"><i class="material-icons">panorama</i></a></li>
+              <li><a class="btn-floating green" onclick="switch_parallax()"><i class="material-icons">panorama</i></a></li>
               <li><a class="btn-floating blue" onclick="cambiar_tema()"><i class="material-icons">web</i></a></li>
             </ul>
           </div>

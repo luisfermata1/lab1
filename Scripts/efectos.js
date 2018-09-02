@@ -88,3 +88,22 @@ function cambiar_font_size(){
             $("p").addClass("text1");
     }
 }
+
+function switch_parallax(){
+    
+    var src1 = $('.parallax1').attr('src');
+    var src2 = $('.parallax2').attr('src');
+
+    $('.parallax1').attr('src',src2);
+    $('.parallax2').attr('src',src1);
+    
+}
+
+function add_shadow(){
+    if($(".section").first().hasClass("z-depth-5"))
+        $(".section").removeClass("z-depth-5");
+    else
+        $(".section").addClass("z-depth-5");
+}
+
+
