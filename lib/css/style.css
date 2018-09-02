@@ -22,3 +22,13 @@
 .parallax-container {
     height: 300px;
   }
+
+.text1{
+    font-size: 1em;
+  }
+.text2{
+    font-size: 1.2em;
+  }
+.text3{
+    font-size: 1.5em;
+  }
